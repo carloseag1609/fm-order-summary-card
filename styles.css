@@ -36,7 +36,7 @@ body {
 }
 
 .card {
-  background-color: var(--very-pale-blue);
+  background-color: white;
   border-radius: 2rem;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   margin: 3rem auto;
@@ -89,11 +89,14 @@ body {
 
 .card__plan {
   align-items: center;
+  background-color: var(--very-pale-blue);
+  border-radius: 1.5rem;
   display: flex;
   gap: 2.5rem;
   height: 7rem;
   justify-content: space-between;
   margin: 2rem 0;
+  padding: 4rem 2rem;
   width: 100%;
 }
 
